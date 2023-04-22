@@ -15,10 +15,10 @@ class Rectangle(Base):
             x(int): The x coordinate of the rectangle
             y(int): The y coordinate of the rectangle
         """
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        self.width = width
+        self.eight = height
+        self.x = x
+        self.y = y
         super().__init__(id)
 
         @property
