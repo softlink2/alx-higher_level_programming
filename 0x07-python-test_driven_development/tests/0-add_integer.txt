@@ -18,7 +18,7 @@ usage: add a positive and negative integer
 0
 
 usage: add an integer to a string
->>> add_integer(5, "10")
+>>> add_integer(5, "boy")
 Traceback (most recent call last):
 ...
 TypeError: b must be an integer
